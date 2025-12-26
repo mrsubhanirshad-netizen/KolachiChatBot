@@ -1,0 +1,5 @@
+streamlit
+speechrecognition
+huggingface_hub
+docx2txt
+pydub
