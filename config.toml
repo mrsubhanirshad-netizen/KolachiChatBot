@@ -1,4 +1,5 @@
-HF_TOKEN = st.secrets["HF_TOKEN"]
+HF_TOKEN = st.secrets["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"]
 
 MODEL_ID = "meta-llama/Llama-3.2-3B-Instruct"
 hf_client = InferenceClient(model=MODEL_ID, token=HF_TOKEN)
+
