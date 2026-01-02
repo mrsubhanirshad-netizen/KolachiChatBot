@@ -7,7 +7,7 @@ import docx2txt
 
 st.set_page_config(page_title="Kolachi", layout="wide")
 st.title("🏫 Kolachi😋 - AI Assistant🤖")
-
+# dont input your api input it while deploying in seperate .toml file
 HF_TOKEN = st.secrets["HF_TOKEN"]
 
 MODEL_ID = "meta-llama/Llama-3.2-3B-Instruct"
